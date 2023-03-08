@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: blue;
+}
+
+
+#DATA {
+  text-align: center;
+  margin-right: 41rem;
+}
+
+.person {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50rem;
+    height: 6rem;
+    background-color: aquamarine;
+    border-radius: 5%;
+}
+
+.person::before {
+  
+  font-weight: bold;
+
+}
+
+.person span {
+  display: block;
+}
+
+.person span:last-child::before {
+  content: "LOCATION: ";
+  font-weight: bold;
+}
+
+.person-location{
+  padding-top: 2rem;
+}
+#next-btn{
+  border-radius:20%;
+  height: 3rem;
+  width: 10rem;
+  background-color: orange;
+}
